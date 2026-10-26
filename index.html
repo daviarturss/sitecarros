@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoPrime Veículos - Seminovos Premium com Garantia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<div class="container nav">
+<div class="logo">🚗 AutoPrime</div>
+<nav>
+<a href="#estoque">Estoque</a>
+<a href="#financiamento">Financiamento</a>
+<a href="#venda">Venda seu carro</a>
+<a href="#contato" class="btn btn-outline">Falar no WhatsApp</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<h1>Seu próximo carro com aprovação em até 24h</h1>
+<p>Seminovos revisados, garantia de 12 meses e financiamento facilitado. Teste drive sem sair de casa com nosso simulador.</p>
+<div class="cta-group">
+<a class="btn btn-primary" href="https://wa.me/5511988888888?text=Quero cotação de financiamento" target="_blank">Cotar no WhatsApp</a>
+<a class="btn btn-secondary" href="#simulador">Simular parcelas</a>
+</div>
+<div class="trust">
+<span>✓ Laudo cautelar incluso</span>
+<span>✓ 120+ veículos disponíveis</span>
+<span>✓ Transferência grátis</span>
+</div>
+</div>
+<div class="card simulador">
+<h3>Simulador rápido</h3>
+<form id="sim-form">
+<label>Valor do carro</label>
+<input type="number" name="valor" placeholder="R$ 75.000" required>
+<label>Entrada</label>
+<input type="number" name="entrada" placeholder="R$ 15.000" required>
+<label>Prazo</label>
+<select name="prazo">
+<option>24x</option>
+<option>36x</option>
+<option>48x</option>
+<option>60x</option>
+</select>
+<button class="btn btn-primary full" type="submit">Calcular</button>
+<p id="resultado" class="small"></p>
+</form>
+</div>
+</div>
+</section>
+
+<section id="estoque" class="section">
+<div class="container">
+<h2>Modelos em destaque</h2>
+<div class="cards">
+<div class="card vehicle">
+<h4>Toyota Corolla 2022</h4>
+<p>Flex • Automático • 38.000 km</p>
+<p class="price">R$ 119.900</p>
+<a class="btn btn-outline small-btn" href="https://wa.me/5511988888888?text=Quero o Corolla 2022" target="_blank">WhatsApp</a>
+</div>
+<div class="card vehicle">
+<h4>Honda HR-V 2021</h4>
+<p>Turbo • CVT • 29.500 km</p>
+<p class="price">R$ 99.900</p>
+<a class="btn btn-outline small-btn" href="https://wa.me/5511988888888?text=Quero o HR-V 2021" target="_blank">WhatsApp</a>
+</div>
+<div class="card vehicle">
+<h4>Jeep Compass 2020</h4>
+<p>4x4 • Automático • 52.000 km</p>
+<p class="price">R$ 124.900</p>
+<a class="btn btn-outline small-btn" href="https://wa.me/5511988888888?text=Quero o Compass 2020" target="_blank">WhatsApp</a>
+</div>
+<div class="card vehicle">
+<h4>Volkswagen T-Cross 2023</h4>
+<p>TSI • Automático • 18.000 km</p>
+<p class="price">R$ 109.900</p>
+<a class="btn btn-outline small-btn" href="https://wa.me/5511988888888?text=Quero o T-Cross 2023" target="_blank">WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="financiamento" class="section alt">
+<div class="container grid-2">
+<div>
+<h2>Financiamento simplificado</h2>
+<ul class="list-check">
+<li>Análise em até 24h sem burocracia</li>
+<li>Taxas a partir de 1,29% a.m.</li>
+<li>Entrada a partir de 15%</li>
+<li>Aprovação com score a partir de 500</li>
+</ul>
+<a class="btn btn-primary" href="https://wa.me/5511988888888?text=Quero simular financiamento" target="_blank">Falar com consultor</a>
+</div>
+<div class="promo">
+<h3>Leve seu carro hoje</h3>
+<p>Com a troca aprovada, você sai com seu novo veículo e quitamos sua atual dívida.</p>
+<p><strong>Sem custo de avaliação</strong></p>
+<button class="btn btn-secondary" onclick="window.open('https://wa.me/5511988888888?text=Quero avaliar meu carro na troca','_blank')">Avaliar meu carro</button>
+</div>
+</div>
+</section>
+
+<section id="venda" class="section">
+<div class="container center">
+<h2>Vende seu carro conosco</h2>
+<p>Receba a melhor oferta em 30 minutos. Pagamento à vista e retirada grátis.</p>
+<form id="form-venda" class="lead-form">
+<div class="row">
+<input placeholder="Seu nome" required>
+<input placeholder="Telefone/WhatsApp" required>
+</div>
+<div class="row">
+<input placeholder="Modelo do carro">
+<input placeholder="Ano">
+</div>
+<button class="btn btn-primary" type="submit">Receber proposta</button>
+</form>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<p>© 2026 AutoPrime Veículos • Av. Industrial, 450 - São Paulo/SP</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
